@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/personal/personal",
+    "pages/cart/cart"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "徐东凯练习",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#C0C0C0",
+    "selectedColor": "#00FFFF",
+    "list": [
+      {
+        "iconPath" : "/pages/image/icon_all.png",
+        "selectedIconPath": "/pages/image/icon_all_se.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "/pages/image/cart.png",
+        "selectedIconPath": "/pages/image/cart_se.png",
+        "pagePath": "pages/cart/cart",
+        "text": "购物车"
+      },
+      {
+        "iconPath": "/pages/image/account.png",
+        "selectedIconPath": "/pages/image/account_se.png",
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ],
+  "sitemapLocation": "sitemap.json"
+}

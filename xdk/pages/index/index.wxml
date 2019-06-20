@@ -1,0 +1,33 @@
+<!--pages/index/index.wxml-->
+<view class='one'>
+<!-- 轮播图 -->
+  <view class='two'>
+    <swiper
+      indicator-dots="true"
+      autoplay="true"
+      indicator-color="white"
+      indicator-active-color="cyan"
+      interval="5000"
+      duration="500"e w xuanyao ni na laji d yuyan le
+      circular="true">
+      <swiper-item wx:for="{{listArr}}">
+        <image src='{{item.img}}'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 商品分类 -->
+  <view class='three'>
+     <view class='ify'  wx:for="{{threeArr}}">
+        <image src='{{item.img}}'></image>
+       <view class='tex'>{{item.cname}}</view>
+     </view>
+  </view>
+  <!-- 商品详情 -->
+  <view class='four'>
+    <view class='titl'>商品介绍</view>
+    <view class='goods' wx:for="{{goodsArr}}">
+      <image src="{{item.img}}"></image>
+      <view class='tex'>{{item.gname}}</view>
+    </view>
+  </view>
+</view>
