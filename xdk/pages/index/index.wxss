@@ -1,0 +1,64 @@
+/* pages/index/index.wxss */
+.one{
+  width: 100%;
+  height: 600px;
+  /* background-color: red; */
+}
+/* 轮播图 */
+.two{
+  width: 100%;
+  height: 25%;
+  /* background-color: yellow; */
+}
+/* 分类 */
+.three{
+  width: 100%;
+  height: 30%;
+  margin-top: 2%;
+}
+.ify{
+  margin-top: 2%;
+  float: left;
+  width: 22.5%;
+  height: 45%;
+  margin-left: 2%;
+}
+
+.three .ify image{
+  width: 100%;
+  height:65%;
+}
+.ify .tex{
+  width: 100%;
+  height: 35%;
+  text-align: center;
+}
+/* 商品介绍 */
+.four{
+  width: 100%;
+  height: 40%;
+  margin-top: 2%;
+  /* background-color:blue; */
+}
+.four .titl{
+  margin-left: 2%;
+  font-size: 18px;
+  font-weight: bold;
+}
+.four .goods{
+  margin-top: 1%;
+  width: 47%;
+  height: 45%;
+  float: left;
+  margin-left: 2%;
+  /* background-color: red; */
+}
+.goods image{
+  width: 100%;
+  height: 75%;
+}
+.goods .tex{
+  width: 100%;
+  height: 35%;
+  text-align: center;
+}

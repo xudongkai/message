@@ -1,0 +1,22 @@
+<!--pages/personal/personal.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+
+  <view class="section">
+    <view class="section__title">收货人</view>
+    <input name="uname" placeholder="请输入姓名"  />
+     <view class="section__title">联系电话</view>
+    <input name="tel" placeholder="请输入电话" />
+     <view class="section__title">所在地区</view>
+    <input name="city" placeholder="地址" />
+     <view class="section__title">街道</view>
+  <textarea name="street"  placeholder="详细地址" ></textarea>
+  </view>
+
+  <view class="btn-area">
+    <button form-type="submit" 
+            type="primary" 
+            hover-stay-time="80"
+            >提交</button>
+    <button form-type="reset">重置</button>
+  </view>
+</form>
